@@ -59,7 +59,7 @@ public class Course {
 	// Creating toString method
 	@Override
 	public String toString() {
-		return crn + "\t" + courseTitle + "\t" + instructor + "\t" + classroom;
+		return "\t" + crn + "\t" + courseTitle + "\t" + instructor + "\t" + classroom;
 	}
 
 }
